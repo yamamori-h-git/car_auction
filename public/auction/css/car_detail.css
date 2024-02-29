@@ -1,0 +1,119 @@
+#car_detail_contents {
+    width: 80vw;
+    margin: 0 auto 40px auto;
+
+    #car_name_flex {
+        display: flex;
+        flex-flow: raw wrap;
+        justify-content: left;
+        align-items: center;
+        margin-top: 20px;
+
+        & h1 {
+            font-size: 2.5rem;
+            color: #87CEFA;
+            margin-right: 2rem;
+        }
+
+        & p {
+            font-size: 2.5rem;
+        }
+    }
+
+    #car_flex {
+        display: flex;
+        flex-flow: raw wrap;
+        justify-content: space-between;
+
+        #car_images {
+            width: 480px;
+
+            #car_hero_img {
+                width: 480px;
+                height: 360px;
+                object-fit: cover;
+                margin-bottom: 20px;
+            }
+
+            & div {
+                width: 100%;
+                display: flex;
+                flex-flow: raw wrap;
+                justify-content: space-between;
+
+                & p {
+                    width: 20%;
+                    height: 90px;
+                    object-fit: cover;
+                }
+            }
+        }
+
+        #right_contents {
+            width: 350px;
+
+            #price_flex {
+                display: flex;
+                justify-content: space-between;
+                /* margin-bottom: 15px; */
+            }
+
+            & br {
+                line-height: initial;
+            }
+
+            .red {
+                color: red;
+                font-weight: bold;
+                font-size: 23px;
+            }
+
+            #mini_detail {
+                border: 1px solid rgb(118, 118, 118);
+                margin-bottom: 20px;
+                width: 300px;
+
+                & tr {
+                    border: 1px solid rgb(118, 118, 118);
+
+                    & td {
+                        height: 40px;
+                        vertical-align: middle;
+                        padding: 0 10px;
+                    }
+
+                    & td:nth-of-type(1) {
+                        width: 40%;
+                        background-color: rgb(230, 230, 230);
+                        text-align: center;
+                    }
+                }
+            }
+
+            #favorite {
+                width: 300px;
+
+                & button {
+                    display: block;
+                    width: 300px;
+                    text-align: center;
+                    color: white;
+                    border: 1px solid rgb(205, 205, 205);
+                    border-radius: 5px;
+                    padding: 20px;
+                    font-size: 20px;
+                    margin: 0 auto 30px auto;
+                    background-color: #87CEFA;
+                    font-weight: bold;
+                    letter-spacing: 0.3rem;
+                }
+            }
+        }
+    }
+
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}

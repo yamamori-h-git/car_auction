@@ -1,0 +1,444 @@
+/* 書体の初期設定 */
+html,
+body {
+    font-size: 62.5%;
+    /* 文字サイズを10pxに固定しいてる */
+    color: #333;
+    /* ゴシック体で表示されるようにする基本的な書き方 */
+    /* font-family: "Helvetica Neue", "Helvetica", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif; */
+}
+
+h1 {
+    font-size: 2.4rem;
+    /* font-family: 'Bitter', serif; */
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 2.1rem;
+    /* font-family: 'Bitter', serif; */
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+p,
+li,
+td,
+th,
+dt,
+dd {
+    font-size: 1.6rem;
+    /* 16pxにしている */
+    line-height: 1.9;
+}
+
+th,
+dt {
+    font-weight: 700;
+}
+
+small {
+    font-size: 1.4rem;
+}
+
+/* 非表示設定(勝手につけてるclass) 文字を非表示にして画像を入れるときによく使う */
+.visuallyhidden {
+    position: absolute;
+    clip: rect(1px, 1px, 1px, 1px);
+    -webkit-clip-path: inset(0px 0px 99.9% 99.9%);
+    clip-path: inset(0px 0px 99.9% 99.9%);
+    overflow: hidden;
+    height: 1px;
+    width: 1px;
+    padding: 0;
+    border: 0;
+}
+
+/* 完全にBOXが消える非表示 */
+.none {
+    display: none;
+}
+
+/* 画像の初期設定(画像の横幅をpxから%に変更してる) */
+img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+/* メディアクエリ(560px～の画面サイズ) */
+@media (min-width:560px) {
+    h1 {
+        font-size: 3.6rem;
+    }
+
+    h2 {
+        font-size: 2.4rem;
+    }
+}
+
+/* 書式の初期設定終了 */
+
+/* ヘッダー */
+header {
+    height: 80px;
+}
+
+header>#header_flex {
+    padding: 0 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(219, 219, 219);
+    height: 80px;
+}
+
+#logo {
+    width: 180px;
+}
+
+#header_flex>form>#search_box {
+    width: 400px;
+    height: 40px;
+    border: 1px solid rgb(192, 192, 192);
+    border-radius: 5px;
+    font-size: 25px;
+    letter-spacing: 0.3rem;
+    padding: 10px;
+}
+
+#header_flex>form>#search_box:focus {
+    border: 1px solid #87CEFA;
+}
+
+#header_flex>form>#search_button {
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 0.3rem;
+    background-color: #87CEFA;
+    width: 80px;
+    height: 40px;
+    margin-left: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#header_flex>form>#search_button:active {
+    background-color: #5fbbf4;
+}
+
+.register_link {
+    color: #5fbbf4;
+    font-weight: bold;
+}
+
+#header_icons {
+    /* background-color: aqua; */
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header_icons p img {
+    width: 30px;
+}
+
+#header_user_icon img {
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgb(205, 205, 205);
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* ヘッダー終了 */
+
+/* ※開始 */
+.asterisk {
+    font-weight: bold;
+    color: red;
+}
+
+/* ※終了 */
+
+/* フォーム関連開始 */
+#register_form {
+    width: 800px;
+    margin: 0 auto 30px auto;
+    border: 1px solid rgb(118, 118, 118);
+}
+
+#register_form tr {
+    border: 1px solid rgb(192, 192, 192);
+}
+
+#register_form td {
+    height: 110px;
+    vertical-align: middle;
+}
+
+.tb_left {
+    width: 30%;
+    background-color: rgb(230, 230, 230);
+    text-align: center;
+}
+
+.tb_right {
+    position: relative;
+    padding-left: 20px;
+}
+
+.tb_right>.error {
+    position: absolute;
+    color: red;
+}
+
+/* テキストボックス系フォーム */
+.text_form p {
+    font-weight: bold;
+}
+
+.text_form input {
+    width: 500px;
+    border: 1px solid rgb(205, 205, 205);
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.text_form input:focus {
+    border: 1px solid #87CEFA;
+}
+
+/* 日付系フォーム */
+.date_form p {
+    font-weight: bold;
+}
+
+.date_form input {
+    width: 500px;
+    border: 1px solid rgb(205, 205, 205);
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* ラジオ系フォーム */
+.radio_form p {
+    font-weight: bold;
+}
+
+.radio_form input {
+    display: none;
+}
+
+.radio_form label {
+    border: 1px solid rgb(205, 205, 205);
+    border-radius: 5px;
+    padding: 1rem;
+    font-size: 15px;
+    margin-right: 20px;
+}
+
+.radio_form input:checked+label {
+    border: 1px solid #87CEFA;
+    background-color: #87CEFA;
+    color: white;
+}
+
+/* 住所関連フォーム */
+#address {
+    width: 300px;
+}
+
+.post_code button {
+    color: white;
+    border: 1px solid rgb(205, 205, 205);
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 15px;
+    margin-left: 15px;
+    background-color: #87CEFA;
+}
+
+/* プルダウン系フォーム */
+.pulldown_form p {
+    font-weight: bold;
+}
+
+.select {
+    position: relative;
+}
+
+.pulldown_form select {
+    width: 500px;
+    border: 1px solid rgb(205, 205, 205);
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.pulldown_form select:focus {
+    border: 1px solid #87CEFA;
+}
+
+.triangle {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    right: 45px;
+    content: "";
+    height: calc(15px / 2 * tan(60deg));
+    width: 15px;
+    clip-path: polygon(0 0, 100% 0, 50% 100%);
+    background-color: #000000;
+}
+
+/* プルダウンメニュー二つ版 */
+.double_form .form_flex {
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.double_form select {
+    width: 200px;
+}
+
+.double_form .select {
+    width: 200px;
+}
+
+.double_form .triangle {
+    right: 5px;
+}
+
+/* 画像選択フォーム */
+.img_form p {
+    font-weight: bold;
+}
+
+.img_flex {
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#img_button {
+    color: white;
+    font-size: 15px;
+    letter-spacing: 0.3rem;
+    background-color: #87CEFA;
+    width: 150px;
+    height: 40px;
+    margin-left: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#file_upload {
+    display: none;
+}
+
+#icon_thumb {
+    width: 60px;
+    height: 60px;
+}
+
+#user_icon {
+    width: 60px;
+    height: 60px;
+    border: 1px solid rgb(205, 205, 205);
+    border-radius: 50%;
+    object-fit: cover;
+    display: none;
+}
+
+/* 送信ボタン */
+#submit {
+    display: block;
+    width: 200px;
+    text-align: center;
+    color: white;
+    border: 1px solid rgb(205, 205, 205);
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 20px;
+    margin: 0 auto 30px auto;
+    background-color: #87CEFA;
+    font-weight: bold;
+    letter-spacing: 0.3rem;
+}
+
+/* フォーム関連終了 */
+
+/* 車両リスト関連 */
+.car_list {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    width: 80vw;
+    margin: 0 auto 30px auto;
+}
+
+.car {
+    width: 240px;
+    margin-bottom: 30px;
+}
+
+.car img {
+    width: 240px;
+    height: 240px;
+    object-fit: cover;
+}
+
+.maker {
+    font-weight: bold;
+}
+
+.car_kind {
+    line-height: 1.3rem;
+    font-weight: bold;
+}
+
+.car.is-empty {
+    width: 240px;
+    height: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+/* 車両リスト関連終了 */
+
+/* フッター開始 */
+footer {
+    background-color: #87CEFA;
+    text-align: center;
+    height: 180px;
+    color: white;
+}
+
+footer #footer_flex {
+    width: 50%;
+    margin: 0 auto;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer p {
+    padding-top: 30px;
+    font-weight: bold;
+}
+
+/* フッター終了 */

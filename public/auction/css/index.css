@@ -1,0 +1,14 @@
+#hero_img {
+    width: 100%;
+    height: calc(100vh - 80px);
+    background-image: url(../img/material/now_auction.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 80px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}

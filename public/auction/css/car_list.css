@@ -1,0 +1,22 @@
+h1 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+h2 {
+    padding-bottom: 20px;
+}
+
+#auction_now {
+    border-top: 2px solid black;
+    width: 80vw;
+    margin: 30px auto;
+    padding: 20px 0;
+}
+
+#not_auction {
+    border-top: 2px solid black;
+    width: 80vw;
+    margin: 30px auto;
+    padding: 20px 0;
+}
