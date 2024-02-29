@@ -1,0 +1,109 @@
+@charset "utf-8";
+h2{
+    /* border: solid 1px; */
+    padding: 30px 0;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+#container {
+    display: grid; /* グリッドレイアウト */
+    height: 100vh;
+}
+
+#left{
+    /* border: solid 1px; */
+    grid-column: 1 / 2;
+    grid-row: 1 / 1;
+    background-color: #87CEFA;
+    width: 200px;
+    width: 100%;
+    height: 100vh;
+}
+
+#left ul{
+    padding-top: 90px;
+}
+
+#left ul li{
+    width: 100%;
+    /* border: solid 1px; */
+    margin-top: 30px;
+    padding-left: 15px;
+    
+}
+
+
+#right{
+    /* border: solid 1px; */
+    grid-column: 2 / 8;
+    grid-row: 1 / 1;
+    width: auto;
+}
+
+.msg{
+    color: #e61739;
+    /* border: solid 1px; */
+    text-align: right;
+    padding: 20px 30px 20px 0;
+}
+
+#group{
+    /* border: solid 1px; */
+    /* 高さ揃える */
+    height: 50px;
+    line-height: 50px;
+    text-align: right;
+    /* padding: 30px 5px; */
+}
+
+.button{
+    /* border: solid 1px black; */
+    display: inline-block;
+    width: 15%;
+    height: 100%;
+    font-size: 16px;
+    /* 上下左右設定 */
+    vertical-align: middle;
+    text-align: center;
+    margin: 0 7px;
+    border-radius: 5px;
+    background-color: #87CEFA;
+    color: white;
+    font-weight: 800;
+}
+
+.entry{
+    /* border: solid 1px black; */
+    margin-right: 16px;
+}
+
+table{
+    margin:30px auto;
+    text-align: center;
+    border-collapse: separate ;
+    border: solid 2px #6ea8cc;/*表全体を線で囲う*/
+}
+
+table td {
+    background-color: #FAFAFA;
+    padding: 5px;
+    /* border: solid 1px; */
+    /*破線 1px オレンジ*/
+}
+
+table th{
+    padding: 15px 40px;
+    text-align: center;
+    background-color: #6ea8cc;
+}
+
+.gray td{
+    background-color: #D9D9D9;
+    padding: 5px;
+}
+
+.color{
+    color: #0000FF;
+}

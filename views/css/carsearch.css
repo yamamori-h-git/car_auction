@@ -1,0 +1,44 @@
+.style{
+    /* border: solid 1px; */
+    text-align: center;
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 50px;
+}
+
+h2{
+    margin-top: 30px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+p{
+    text-align: left;
+    padding-left: 270px;
+}
+
+input{
+    text-align: left;
+    width: 50%;
+    border: solid 1px #D7D7D7;
+    background-color: #FAFAFA;
+    border-radius: 5px;
+    padding: 16px 0;
+    padding-left: 10px;
+    margin: 30px 0;
+}
+::placeholder{
+    color: #5B5B5B;
+    font-weight: 700;
+}
+button{
+    width: 50%;
+    padding: 16px 30px;
+    margin: 30px 0;
+    border-radius: 5px;
+    background-color: #87CEFA;
+    color: white;
+    font-weight: 800;
+    text-align: center;
+}

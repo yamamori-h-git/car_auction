@@ -1,0 +1,82 @@
+/* 書体の初期設定 */
+html,
+body {
+    font-size: 62.5%;
+    /* 文字サイズを10pxに固定しいてる */
+    color: #333;
+    /* ゴシック体で表示されるようにする基本的な書き方 */
+    font-family: "Helvetica Neue", "Helvetica", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif;
+}
+
+h1 {
+    font-size: 2.4rem;
+    font-family: 'Bitter', serif;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 2.1rem;
+    font-family: 'Bitter', serif;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+p,
+li,
+td,
+th,
+dt,
+dd {
+    font-size: 1.6rem;
+    /* 16pxにしている */
+    line-height: 1.9;
+}
+
+th,
+dt {
+    font-weight: 700;
+}
+
+small {
+    font-size: 1.4rem;
+}
+
+/* 非表示設定(勝手につけてるclass) 文字を非表示にして画像を入れるときによく使う */
+.visuallyhidden {
+    position: absolute;
+    clip: rect(1px, 1px, 1px, 1px);
+    -webkit-clip-path: inset(0px 0px 99.9% 99.9%);
+    clip-path: inset(0px 0px 99.9% 99.9%);
+    overflow: hidden;
+    height: 1px;
+    width: 1px;
+    padding: 0;
+    border: 0;
+}
+
+/* 完全にBOXが消える非表示 */
+.none {
+    display: none;
+}
+
+/* 画像の初期設定(画像の横幅をpxから%に変更してる) */
+img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+/* メディアクエリ(560px～の画面サイズ) */
+@media (min-width:560px) {
+    h1 {
+        font-size: 3.6rem;
+    }
+
+    h2 {
+        font-size: 2.4rem;
+    }
+}

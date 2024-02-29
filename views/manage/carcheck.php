@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../public/css/common.css">
+    <link rel="stylesheet" href="../../public/css/destyle.css">
+    <link rel="stylesheet" href="css/carcheck.css">
+    <title>車両情報詳細画面</title>
+</head>
+<body>
+<div>
+    <h2>登録内容を確認して下さい</h2>
+    <form action="" method="">
+    <div class="style">
+    <p>車両名</p>
+    <p>ハイエース</p>
+    <p>メーカー名</p>
+    <p>トヨタ</p>
+    <p>年式</p>
+    <p></p>
+    <p>走行距離</p>
+    <p></p>
+    <p>車検有効期限</p>
+    <p></p>
+    <p>ボディタイプ</p>
+    <p></p>
+    <p>排気量</p>
+    <p></p>
+    <p>輸入モデル年代</p>
+    <p></p>
+    <p>ミッション</p>
+    <p></p>
+    <p>型式</p>
+    <p></p>
+    <p>色の名称</p>
+    <p></p>
+    <p>仕入値</p>
+    <p></p>
+    <p>評価点</p>
+    <p></p>
+    <p>車両削除</p>
+    <p></p>
+    <p>ドア数</p>
+    <p></p>
+    <p>起動方式</p>
+    <p></p>
+    <p>点検記録簿</p>
+    <p></p>
+    <p>車体番号</p>
+    <p></p>
+    <p>輸入経路</p>
+    <p></p>
+    <p>車歴(事故歴)</p>
+    <p></p>
+    <p>引き渡し条件</p>
+    <p></p>
+    <p>乗車定員数</p>
+    <p></p>
+    <p>燃料</p>
+    <p></p>
+    <p>修理歴</p>
+    <p></p>
+    <p>リサイクル預託金</p>
+    <p></p>
+    <p>所有車歴</p>
+    <p></p>
+    <p>車両登録日時</p>
+    <p></p>
+    <p>車種名</p>
+    <p></p>
+    <p>グレード名</p>
+    <p></p>
+    <p>グレード番号</p>
+    <p></p>
+    <p>ハンドル</p>
+    <p></p>
+    <p>エアコン</p>
+    <p></p>
+    <p>パワーウィンドウ</p>
+    <p></p>
+    <p>集中ドアロック</p>
+    <p></p>
+    <p>ABS</p>
+    <p></p>
+    <p>エアバッグ</p>
+    <p></p>
+    <p>ETC</p>
+    <p></p>
+    <p>キーレスエントリー</p>
+    <p></p>
+    <p>スマートキー</p>
+    <p></p>
+    <p>CD取付</p>
+    <p></p>
+    <p>MDビデオ</p>
+    <p></p>
+    <p>DVDビデオ</p>
+    <p></p>
+    <p>テレビ</p>
+    <p></p>
+    <p>ナヴィゲーション</p>
+    <p></p>
+    <p>バックカメラ</p>
+    <p></p>
+    <p>電動スライドドア</p>
+    <p></p>
+    <p>サンルーフ</p>
+    <p></p>
+    <p>本革シート</p>
+    <p></p>
+    <p>純正エアロパーツ</p>
+    <p></p>
+    <p>純正アルミパーツ</p>
+    <p></p>
+    <p>横滑り防止装置</p>
+    <p></p>
+    <p>トラクションコントロール</p>
+    <p></p>
+    <p>寒冷地帯使用者である</p>
+    <p></p>
+    <p>福祉車両である</p>
+    <p></p>
+    <p>ローダウンしている</p>
+    <p></p>
+    <p>禁煙車である</p>
+    <p></p>
+    <p>ペット同乗</p>
+    <p></p>
+    <p>限定車である</p>
+    <p></p>
+    <p>取扱説明書</p>
+    <p></p>
+    <p>新車時保証</p>
+    <p></p>
+    <p>スペアタイヤ</p>
+    <p></p>
+    
+    <button type="submit" class="btn" name="">登録する</button>
+    </form>
+</div>
+</body>
+</html>
