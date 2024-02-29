@@ -4,7 +4,6 @@
 2023年12月に完成しました。　　<br >
 ![S__21979168](https://github.com/yamamori-h-git/randamagic_0829/assets/106938057/fa63c0cf-3fd5-4a06-8377-150a51a90715) <br >
 ![スクリーンショット 2024-02-29 205221](https://github.com/yamamori-h-git/randamagic_0829/assets/106938057/b00ac3dc-2673-4667-8012-a0dd17ad3f51) <br >
-![S__21979171_0](https://github.com/yamamori-h-git/randamagic_0829/assets/106938057/cf052293-d749-4d5e-b999-d141efe80beb) <br >
 ![S__21979169_0](https://github.com/yamamori-h-git/randamagic_0829/assets/106938057/963d0cf9-07b3-44b5-aa0b-defb2e6b9c2e) <br >
 
 
